@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: paypal
+
+paypal:
+  clientId: Your clientId
+  secret: Your secret
+server:
+  port: 8888
