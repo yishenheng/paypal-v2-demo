@@ -16,7 +16,7 @@ public class Constant {
     /**
      * 显示的公司名称
      */
-    public static final String BRAND_NAME = "myyaffiliate";
+    public static final String BRAND_NAME = "baidu";
 
     /**
      * LOGIN：当客户单击PayPal Checkout时，客户将被重定向到页面以登录PayPal并批准付款。
