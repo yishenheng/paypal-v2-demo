@@ -1,4 +1,4 @@
-package com.myyaffiliate.web.manager.constant;
+package com.ysh.constant;
 
 /**
  * @author yishenheng

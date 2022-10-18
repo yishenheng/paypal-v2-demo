@@ -1,4 +1,4 @@
-package com.myyaffiliate.web.manager.util;
+package com.ysh.util;
 
 import com.paypal.core.PayPalEnvironment;
 import com.paypal.core.PayPalHttpClient;

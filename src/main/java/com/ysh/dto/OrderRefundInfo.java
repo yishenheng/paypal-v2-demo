@@ -1,4 +1,4 @@
-package com.myyaffiliate.web.manager.dto;
+package com.ysh.dto;
 
 import lombok.Data;
 

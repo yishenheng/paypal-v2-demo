@@ -1,6 +1,6 @@
-package com.myyaffiliate.web.manager.util;
+package com.ysh.util;
 
-import com.myyaffiliate.web.manager.dto.OrderRefundInfo;
+import com.ysh.dto.OrderRefundInfo;
 import com.paypal.payments.Money;
 import com.paypal.payments.RefundRequest;
 

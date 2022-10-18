@@ -1,11 +1,11 @@
-package com.myyaffiliate.web.manager.util;
+package com.ysh.util;
 
 import cn.hutool.json.JSONUtil;
-import com.myyaffiliate.web.manager.constant.Constant;
-import com.myyaffiliate.web.manager.dto.OrderAddress;
-import com.myyaffiliate.web.manager.dto.OrderAmountWithBreakdown;
-import com.myyaffiliate.web.manager.dto.OrderCommodity;
-import com.myyaffiliate.web.manager.dto.OrderInfo;
+import com.ysh.constant.Constant;
+import com.ysh.dto.OrderAddress;
+import com.ysh.dto.OrderAmountWithBreakdown;
+import com.ysh.dto.OrderCommodity;
+import com.ysh.dto.OrderInfo;
 import com.paypal.orders.*;
 import lombok.extern.slf4j.Slf4j;
 
@@ -69,7 +69,9 @@ public class OrderSubjectUtil {
                 // 商品信息
                 .items(getItems(orderInfo.getCommodityInfo()))
                 // 地址信息
-                .shippingDetail(getShippingDetail(orderInfo.getOrderAddress()));
+                .shippingDetail(getShippingDetail(orderInfo.getOrderAddress()))
+
+                ;
     }
 
     /**

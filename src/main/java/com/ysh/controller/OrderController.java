@@ -1,8 +1,8 @@
-package com.myyaffiliate.web.manager.controller;
+package com.ysh.controller;
 
-import com.myyaffiliate.web.manager.dto.OrderInfo;
-import com.myyaffiliate.web.manager.dto.OrderRefundInfo;
-import com.myyaffiliate.web.manager.util.PayPalApiUtil;
+import com.ysh.dto.OrderInfo;
+import com.ysh.dto.OrderRefundInfo;
+import com.ysh.util.PayPalApiUtil;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;

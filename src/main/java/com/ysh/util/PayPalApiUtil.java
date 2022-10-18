@@ -1,10 +1,10 @@
-package com.myyaffiliate.web.manager.util;
+package com.ysh.util;
 
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.json.JSONUtil;
-import com.myyaffiliate.web.manager.dto.OrderInfo;
-import com.myyaffiliate.web.manager.dto.OrderRefundInfo;
-import com.myyaffiliate.web.manager.constant.PayPalStatusEnum;
+import com.ysh.dto.OrderInfo;
+import com.ysh.dto.OrderRefundInfo;
+import com.ysh.constant.PayPalStatusEnum;
 import com.paypal.http.HttpResponse;
 import com.paypal.orders.*;
 import com.paypal.payments.CapturesGetRequest;

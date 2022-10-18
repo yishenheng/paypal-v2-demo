@@ -1,4 +1,4 @@
-package com.myyaffiliate.web.manager;
+package com.ysh;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

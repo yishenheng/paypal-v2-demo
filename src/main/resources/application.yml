@@ -3,7 +3,8 @@ spring:
     name: paypal
 
 paypal:
-  clientId: Your clientId
-  secret: Your secret
+  clientId: AYo_6jmQeH7bQpt3dvxpgwx8smvBcSnwBEc51IJszn14KZ7L5-XNwCBME7GG_84xgu-ysQ7I30RsO3z6
+  secret: EAjbLyoj-jR9g6_dTIEIJ4rXaRE7sgiy9MkCo2hz4g_-AE5FrX3ExOIYQgpSUUH9DSgRxcLFMVfePKQK
+
 server:
   port: 8888
